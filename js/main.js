@@ -69,52 +69,52 @@ jQuery(document).ready(function($) {
 
 
 
-
-window.addEventListener('resize', e => {
-	const newWidth = window.innerWidth;
-	const newHeight = window.innerHeight;
-	const menuIcon = document.getElementsByClassName('menu-icon')[0];
-	const navLinks = document.getElementsByClassName('nav-link');
-	const overlay = document.getElementsByClassName('overlay-menu')[0];
-
-	if (newWidth <= newHeight) {
-		menuIcon.style.visibility = "visible";
-		for (navLink of navLinks) {
-			navLink.style.visibility = "hidden";
-		}
-		if (overlay.style.visibility === "hidden") {
-			overlay.style.visibility = "visible";
-		}
-	} else {
-		menuIcon.style.visibility = "hidden";
-		for (navLink of navLinks) {
-			navLink.style.visibility = "visible";
-		}
-		overlay.style.visibility = "hidden";
-	}
-})
-
-
-window.addEventListener('load', e => {
-	const newWidth = window.innerWidth;
-	const newHeight = window.innerHeight;
-	const menuIcon = document.getElementsByClassName('menu-icon')[0];
-	const navLinks = document.getElementsByClassName('nav-link');
-	const overlay = document.getElementsByClassName('overlay-menu')[0];
-
-	if (newWidth <= newHeight) {
-		menuIcon.style.visibility = "visible";
-		for (navLink of navLinks) {
-			navLink.style.visibility = "hidden";
-		}
-		if (overlay.style.visibility === "hidden") {
-			overlay.style.visibility = "visible";
-		}
-	} else {
-		menuIcon.style.visibility = "hidden";
-		for (navLink of navLinks) {
-			navLink.style.visibility = "visible";
-		}
-		overlay.style.visibility = "hidden";
-	}
-})
+//
+// window.addEventListener('resize', e => {
+// 	const newWidth = window.innerWidth;
+// 	const newHeight = window.innerHeight;
+// 	const menuIcon = document.getElementsByClassName('menu-icon')[0];
+// 	const navLinks = document.getElementsByClassName('nav-link');
+// 	const overlay = document.getElementsByClassName('overlay-menu')[0];
+//
+// 	if (newWidth <= newHeight) {
+// 		menuIcon.style.visibility = "visible";
+// 		for (navLink of navLinks) {
+// 			navLink.style.visibility = "hidden";
+// 		}
+// 		if (overlay.style.visibility === "hidden") {
+// 			overlay.style.visibility = "visible";
+// 		}
+// 	} else {
+// 		menuIcon.style.visibility = "hidden";
+// 		for (navLink of navLinks) {
+// 			navLink.style.visibility = "visible";
+// 		}
+// 		overlay.style.visibility = "hidden";
+// 	}
+// })
+//
+//
+// window.addEventListener('load', e => {
+// 	const newWidth = window.innerWidth;
+// 	const newHeight = window.innerHeight;
+// 	const menuIcon = document.getElementsByClassName('menu-icon')[0];
+// 	const navLinks = document.getElementsByClassName('nav-link');
+// 	const overlay = document.getElementsByClassName('overlay-menu')[0];
+//
+// 	if (newWidth <= newHeight) {
+// 		menuIcon.style.visibility = "visible";
+// 		for (navLink of navLinks) {
+// 			navLink.style.visibility = "hidden";
+// 		}
+// 		if (overlay.style.visibility === "hidden") {
+// 			overlay.style.visibility = "visible";
+// 		}
+// 	} else {
+// 		menuIcon.style.visibility = "hidden";
+// 		for (navLink of navLinks) {
+// 			navLink.style.visibility = "visible";
+// 		}
+// 		overlay.style.visibility = "hidden";
+// 	}
+// })
